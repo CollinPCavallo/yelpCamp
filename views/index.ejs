@@ -22,7 +22,12 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="thumbnail">
                         <img src='<%= site.image %>'>
-                        <div class="caption"><h4> <%= site.name%> </h4></div>
+                        <div class="caption">
+                        <h4> <%= site.name%> </h4>
+                        <p>
+                            <a class='btn btn-primary' href='/campgrounds/<%= site._id %>'>More Info</a>
+                        </p>
+                        </div>
 
                     </div>
                 </div>
